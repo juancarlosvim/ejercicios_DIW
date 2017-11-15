@@ -1,0 +1,103 @@
+body {
+  width: 100%; }
+
+header {
+  background-color: #2D3E50;
+  padding: 2em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  header .logo {
+    padding: 0.5em 0; }
+    header .logo h1 {
+      color: #EEF5F6;
+      font-size: 2em; }
+  header nav ul {
+    background-color: #C1392B; }
+  header nav li {
+    display: inline-block; }
+  header nav a {
+    color: #EEF5F6;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    line-height: 3em;
+    padding-left: 1em;
+    padding-right: 1em; }
+  header nav a:hover {
+    background-color: yellow;
+    color: red; }
+
+main {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+section {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 1 70%;
+  -ms-flex: 0 1 70%;
+  flex: 0 1 70%;
+  margin-top: 1em; }
+  section h2 {
+    font-size: 1.8em; }
+  section p {
+    font-size: 1.2em; }
+
+aside {
+  padding: 4em;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 1 30%;
+  -ms-flex: 0 1 30%;
+  flex: 0 1 30%;
+  background-color: #E67F22; }
+  aside .contenido {
+    width: 100%;
+    height: 250px;
+    background-color: #D25400;
+    margin-top: 1em; }
+
+footer {
+  background-color: #2D3E50;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  footer nav {
+    padding: 2em; }
+    footer nav ul {
+      display: inline-block;
+      background-color: #C1392B; }
+    footer nav a {
+      padding: 1em;
+      color: #EEF5F6;
+      text-decoration: none;
+      display: block; }
+    footer nav a:hover {
+      color: red;
+      background-color: yellow; }
+  footer .botonesSocial {
+    background-color: #E67F22;
+    margin: 3em 0;
+    margin-right: 2em;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center; }
+    footer .botonesSocial a {
+      padding: 1em;
+      text-decoration: none;
+      color: #EEF5F6;
+      display: inline-block; }
+    footer .botonesSocial a:hover {
+      color: red;
+      background-color: yellow; }

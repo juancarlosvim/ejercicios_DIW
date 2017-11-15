@@ -1,0 +1,88 @@
+/* reset */
+/* line 13, /home/alumno/Escritorio/ejerciciosDIW/ejercicio2Clase/scss/estilo.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* line 19, /home/alumno/Escritorio/ejerciciosDIW/ejercicio2Clase/scss/estilo.scss */
+body {
+  background-color: white;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto; }
+
+/* line 25, /home/alumno/Escritorio/ejerciciosDIW/ejercicio2Clase/scss/estilo.scss */
+header {
+  margin-top: 2em;
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  border-bottom: 1px dotted black; }
+  /* line 30, /home/alumno/Escritorio/ejerciciosDIW/ejercicio2Clase/scss/estilo.scss */
+  header img {
+    float: right; }
+  /* line 33, /home/alumno/Escritorio/ejerciciosDIW/ejercicio2Clase/scss/estilo.scss */
+  header h1 {
+    font-size: 2em;
+    color: #7148A2; }
+  /* line 39, /home/alumno/Escritorio/ejerciciosDIW/ejercicio2Clase/scss/estilo.scss */
+  header h4 {
+    font-size: 0.8em; }
+
+/* line 44, /home/alumno/Escritorio/ejerciciosDIW/ejercicio2Clase/scss/estilo.scss */
+.destacado {
+  background-color: #F0F0F0;
+  padding: 2em;
+  overflow: hidden; }
+  /* line 50, /home/alumno/Escritorio/ejerciciosDIW/ejercicio2Clase/scss/estilo.scss */
+  .destacado img {
+    float: left; }
+  /* line 53, /home/alumno/Escritorio/ejerciciosDIW/ejercicio2Clase/scss/estilo.scss */
+  .destacado h2 {
+    font-size: 1.4em;
+    margin-top: 3em;
+    margin-bottom: 3em; }
+  /* line 60, /home/alumno/Escritorio/ejerciciosDIW/ejercicio2Clase/scss/estilo.scss */
+  .destacado .textos {
+    margin-left: 25em; }
+
+/* line 68, /home/alumno/Escritorio/ejerciciosDIW/ejercicio2Clase/scss/estilo.scss */
+.columnas img {
+  background-color: white;
+  padding: 3px;
+  border: 1px solid black;
+  float: left;
+  margin-right: 1em; }
+
+/* line 78, /home/alumno/Escritorio/ejerciciosDIW/ejercicio2Clase/scss/estilo.scss */
+.columna {
+  width: 32%;
+  display: inline-block; }
+  /* line 81, /home/alumno/Escritorio/ejerciciosDIW/ejercicio2Clase/scss/estilo.scss */
+  .columna h3 {
+    color: red; }
+
+/* line 85, /home/alumno/Escritorio/ejerciciosDIW/ejercicio2Clase/scss/estilo.scss */
+.leermas {
+  color: red;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding: 0.5em; }
+
+/* line 92, /home/alumno/Escritorio/ejerciciosDIW/ejercicio2Clase/scss/estilo.scss */
+.fotografias {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-bottom: 1px dashed black;
+  border-top: 1px dashed black; }
+
+/* line 101, /home/alumno/Escritorio/ejerciciosDIW/ejercicio2Clase/scss/estilo.scss */
+footer {
+  background-color: #D9D9D9; }
+  /* line 103, /home/alumno/Escritorio/ejerciciosDIW/ejercicio2Clase/scss/estilo.scss */
+  footer span {
+    float: right; }
+
+/*# sourceMappingURL=estilo.css.map */

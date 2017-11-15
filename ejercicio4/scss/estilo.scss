@@ -1,0 +1,65 @@
+//variables
+$color_letra_menu: black;
+$color_fondo_menu: blue;
+$color_fondo_Raton_encima: orange;
+$ancho_pagina: 100%;
+
+/* reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: $ancho_pagina;
+}
+
+header{
+
+    .izquierda {
+      display: inline-block;
+      padding-top: 1em;
+      padding-left: 5em;
+      padding-bottom: 1em;
+    }
+    .derecha{
+
+      padding-top: 0.2em;
+      padding-right: 3em;
+      float: right;
+    }
+
+    nav{
+      background-color: $color_fondo_menu;
+
+      ul{
+        padding: 1em;
+        text-align: center;
+      }
+      li{
+        display: inline-block;
+        padding-right: 4em;
+      }
+      a{
+        text-decoration: none;
+        color: $color_letra_menu;
+        padding: 1em;
+        padding-left: 2em;
+        padding-right: 2em;
+
+      }
+      a:hover{
+        background-color: $color_fondo_Raton_encima;
+
+      }
+    }
+}
+
+.fotos{
+
+    img{
+      padding: 0.8em;
+
+    }
+}

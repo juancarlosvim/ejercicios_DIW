@@ -1,0 +1,137 @@
+//variables
+//body
+$ancho_pagina: 100%;
+//header
+$color_fondo_header: #2D3E50;
+$color_letra_l: #EEF5F6;
+$color_fondo_nav: #C1392B;
+
+//colores para el a:hover
+$color_letra_a: red;
+$color_fondo_a: yellow;
+//section
+
+//aside
+$color_fondo_aside: #E67F22;
+
+
+body{
+  width: $ancho_pagina;
+}
+
+header{
+  background-color: $color_fondo_header;
+  padding: 2em;
+  display: flex;
+  justify-content: space-between;
+  .logo{
+
+      padding: 0.5em 0;
+    h1{
+      color: $color_letra_l;
+      font-size: 2em;
+    }
+  }
+    nav{
+      ul{
+
+          background-color: $color_fondo_nav;
+      }
+      li{
+        display: inline-block;
+      }
+      a{
+
+        color: $color_letra_l;
+        text-decoration: none;
+        text-align: center;
+        display: block;
+        line-height: 3em;
+        padding-left: 1em;
+        padding-right: 1em;
+
+      }
+      a:hover{
+        background-color: $color_fondo_a;
+        color: $color_letra_a;
+      }
+    }
+
+  }
+
+main{
+  display: flex;
+}
+section{
+  flex: 0 1 70%;
+  // 0 crece 1 decrece 70 tamaño original
+
+  margin-top: 1em;
+  h2{
+    font-size: 1.8em;
+  }
+  p{
+    font-size: 1.2em;
+  }
+}
+aside{
+  padding: 4em;
+  flex: 0 1 30%;
+
+
+  background-color: $color_fondo_aside;
+  .contenido{
+    width: 100%;
+    height: 250px;
+    background-color: #D25400;
+
+    margin-top: 1em;
+  }
+}
+
+footer{
+
+  background-color: $color_fondo_header;
+  display: flex;
+  justify-content: space-between;
+    nav{
+
+        padding: 2em;
+          ul{
+          display: inline-block;
+          background-color: $color_fondo_nav;
+          }
+        a{
+          padding: 1em;
+          color: $color_letra_l;
+          text-decoration: none;
+          display: block;
+        }
+        a:hover{
+          color: $color_letra_a;
+          background-color: $color_fondo_a;
+        }
+    }
+
+
+    .botonesSocial{
+
+        background-color: $color_fondo_aside;
+        
+        margin: 3em 0;
+        margin-right: 2em;
+        align-self: center;
+      a{
+        padding: 1em;
+        text-decoration: none;
+        color: $color_letra_l;
+        display: inline-block;
+      }
+      a:hover{
+        color: $color_letra_a;
+        background-color: $color_fondo_a;
+      }
+
+    }
+
+}

@@ -1,0 +1,40 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  width: 100%; }
+
+header .izquierda {
+  display: inline-block;
+  padding-top: 1em;
+  padding-left: 5em;
+  padding-bottom: 1em; }
+
+header .derecha {
+  padding-top: 0.2em;
+  padding-right: 3em;
+  float: right; }
+
+header nav {
+  background-color: blue; }
+  header nav ul {
+    padding: 1em;
+    text-align: center; }
+  header nav li {
+    display: inline-block;
+    padding-right: 4em; }
+  header nav a {
+    text-decoration: none;
+    color: black;
+    padding: 1em;
+    padding-left: 2em;
+    padding-right: 2em; }
+  header nav a:hover {
+    background-color: orange; }
+
+.fotos img {
+  padding: 0.8em; }

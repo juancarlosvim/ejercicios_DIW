@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 500px;
+   background-image: url(../img/colored_trans.png), url(../img/porta.png), url(../img/images.jpeg);
+
+   background-repeat: no-repeat, no-repeat, repeat-x;
+   
+   background-position: left, right, bottom;
+   background-size: contain, 20%, 4%;
+   
+    p{
+       width: 70%; 
+    }
+}
+
+// la imagen hay que quitarle el fondo
+

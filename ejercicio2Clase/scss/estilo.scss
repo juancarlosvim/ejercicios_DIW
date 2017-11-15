@@ -1,0 +1,107 @@
+// variables 
+$color_fondo_web: white;
+$ancho_web: 75%;
+$color_logo: #7148A2;
+$borde_cabecera: 1px dotted black;
+$color_fondo_destacado: #F0F0F0;
+$color_columna: red;
+$color_boton: red;
+$borde_foto: 1px dashed black;
+$fondo_pie: #D9D9D9;
+
+@import ("../componentes/variables");
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: $color_fondo_web;
+    width: $ancho_web;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    margin-top: 2em;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    border-bottom: $borde_cabecera;
+    img{
+        float: right;
+    }
+    h1{
+        font-size: 2em;
+        color: $color_logo;
+         
+       
+    }
+    h4{
+        font-size: 0.8em;
+    }
+}
+
+.destacado{
+    
+    background-color: $color_fondo_destacado;
+    padding: 2em;
+    
+    overflow: hidden;
+    img{
+        float: left;
+    }
+    h2{
+        font-size: 1.4em;
+        margin-top: 3em;
+        margin-bottom: 3em;
+        
+    }
+    
+    .textos{
+        margin-left: 25em;
+    }
+    
+}
+
+.columnas{
+    
+    img{
+        background-color: white;
+        padding: 3px;
+        border: 1px solid black;
+        float: left;
+        margin-right: 1em;
+    }
+    
+}
+
+    .columna{
+        width: 32%;
+        display: inline-block;
+        h3{
+            color: $color_columna;
+        }
+    }
+.leermas{
+    color: $color_boton;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 0.5em;
+}
+
+.fotografias{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-bottom: $borde_foto;
+    border-top: $borde_foto;
+}
+
+footer{
+    background-color: $fondo_pie;
+    span{
+        float: right;
+    }
+}
