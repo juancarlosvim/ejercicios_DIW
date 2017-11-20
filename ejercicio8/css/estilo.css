@@ -1,0 +1,25 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  margin: auto;
+  width: 50%;
+  margin-top: 1em; }
+
+.tituloPrincipal {
+  background-color: #C0C5C8;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  .tituloPrincipal h1 {
+    color: #7C8389;
+    text-shadow: -4px 1px #E6E6E6; }
