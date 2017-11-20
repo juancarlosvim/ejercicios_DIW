@@ -1,0 +1,15 @@
+body{
+
+  background-image: url("../img/rose2.jpg");
+  background-repeat: no-repeat ;
+  .texto{
+    border: 0.1em solid white;
+    border-radius: 0.5em;
+    width: 30%;
+    color: white;
+    position: relative;
+    left: 50%;
+    top:500px;
+    background-color: rgba(0, 0, 0, 0.43);
+  }
+}
