@@ -1,20 +1,36 @@
 //variables
 $color_fondo_header: #0f7595;
 $color_fondo_footer: #0000AA;
+$color_letra_a_header: #950A26 ;
 
+/*reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*reset */
 body{
   background-color: red;
   header{
     background-color: $color_fondo_header;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     nav{
       width: 40%;
       ul{
         display: flex;
-        justify-content: space-between;
-
-
-
+        justify-content: space-around;
       }
+      li{
+        list-style: none;
+      }
+      a{
+        text-decoration: none;
+        color: $color_letra_a_header;
+      }
+
     }
 
   }
