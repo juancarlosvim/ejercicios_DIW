@@ -8,5 +8,5 @@ body {
     color: white;
     position: relative;
     left: 50%;
-    top: 500px;
+    bottom: -500px;
     background-color: rgba(0, 0, 0, 0.43); }
