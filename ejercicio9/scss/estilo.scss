@@ -6,6 +6,7 @@ $color_letra: white;
   padding: 0;
   box-sizing: border-box;
 }
+/* reset */
 
 body{
 
@@ -19,7 +20,7 @@ body{
       padding-left: 1em;
     }
     img{
-      border-radius: 5em;
+      border-radius: 50%;
       width: 6em;
     }
     button{
@@ -36,8 +37,9 @@ body{
   main{
     background-color: #1E3E51;
     margin-top: 1em;
-    margin-left: 7em;
-    margin-right: 7em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
     .imagen{
       padding-top: 1em;
       margin: auto;
