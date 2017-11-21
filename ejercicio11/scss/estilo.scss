@@ -1,0 +1,33 @@
+
+/* reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+
+  .textoPrincipal{
+    position:absolute;
+    left: 20%;
+    right: 20%;
+    margin-top: 1em;
+
+    border: 0.2em solid red;
+    width: 60%;
+    p:not(.sinColor){
+      background-color: orange;
+      height: 1.5em;
+      width: 8%;
+      text-align: center;
+
+    }
+    p:last-child{
+      position: relative;
+      left: 92%;
+      text-align: center;
+    }
+
+  }
+}
