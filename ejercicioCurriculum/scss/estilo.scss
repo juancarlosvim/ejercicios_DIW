@@ -1,3 +1,25 @@
-body {
+//variables
+$color_fondo_header: #0f7595;
+$color_fondo_footer: #0000AA;
 
+body{
+  background-color: red;
+  header{
+    background-color: $color_fondo_header;
+    nav{
+      width: 40%;
+      ul{
+        display: flex;
+        justify-content: space-between;
+
+
+
+      }
+    }
+
+  }
+
+  footer{
+    background-color: $color_fondo_footer;
+  }
 }
