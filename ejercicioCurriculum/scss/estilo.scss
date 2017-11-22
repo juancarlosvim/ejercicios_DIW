@@ -1,8 +1,8 @@
 //variables
-$color_fondo_header: #0f7595;
-$color_fondo_footer: #0000AA;
-$color_letra_a_header: #950A26 ;
-
+$color_fondo_header: #00C2AC;
+$color_fondo_footer: #333333;
+$color_letra_a_header: #FFFAEA;
+$color_letra_footer: #FFFAEA;
 /*reset */
 *{
   margin: 0;
@@ -11,7 +11,7 @@ $color_letra_a_header: #950A26 ;
 }
 /*reset */
 body{
-  background-color: red;
+
   header{
     background-color: $color_fondo_header;
     display: flex;
@@ -37,5 +37,17 @@ body{
 
   footer{
     background-color: $color_fondo_footer;
+    display: flex;
+    justify-content: space-between;
+    color: $color_letra_footer;
+    span{
+      line-height: 2em;
+    }
+    .social{
+
+      a{
+        text-decoration: none;
+      }
+    }
   }
 }
