@@ -7,7 +7,7 @@
 
 /*reset */
 body header {
-  background-color: #00C2AC;
+  background-color: #333333;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -30,8 +30,109 @@ body header {
     body header nav a {
       text-decoration: none;
       color: #FFFAEA; }
+    body header nav a:hover {
+      color: rgba(225, 168, 55, 0.43); }
+
+body .inicio {
+  background-color: rgba(65, 62, 52, 0.2);
+  min-height: 30em;
+  margin: auto;
+  text-align: center;
+  padding: 1em; }
+
+body .acercaDeMi {
+  background-color: rgba(225, 138, 22, 0.2);
+  min-height: 25em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  padding: 1em; }
+  body .acercaDeMi .informacionIzquierda {
+    width: 50%; }
+  body .acercaDeMi .informacionDerecha {
+    width: 50%; }
+  body .acercaDeMi h2 {
+    display: inline; }
+  body .acercaDeMi ul, body .acercaDeMi ol {
+    margin-left: 2.5em; }
+
+body .experiencia {
+  background-color: rgba(225, 168, 55, 0.43);
+  margin: auto;
+  min-height: 30em;
+  padding: 1em; }
+  body .experiencia h2 {
+    text-align: center; }
+  body .experiencia .lenguajes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 1em auto auto auto;
+    text-align: center; }
+    body .experiencia .lenguajes .lenguajeHtml {
+      width: 30%; }
+    body .experiencia .lenguajes .lenguajeCss {
+      width: 30%; }
+    body .experiencia .lenguajes .lenguajeJavascript {
+      width: 30%; }
+
+body .proyectos {
+  background-image: url("../img/fondoImagenProyectos.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-height: 30em;
+  text-align: center;
+  padding: 2em; }
+  body .proyectos a {
+    color: black; }
+  body .proyectos a:hover {
+    color: #FFFAEA; }
+  body .proyectos .proyecto1 {
+    width: 30%; }
+  body .proyectos .proyecto2 {
+    width: 30%; }
+  body .proyectos .proyecto3 {
+    width: 30%; }
+
+body .contacto {
+  margin: auto;
+  background-image: url("../img/fondoImagen2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FFFAEA;
+  min-height: 30em; }
+  body .contacto form {
+    margin: auto auto auto auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 30%; }
+    body .contacto form label {
+      margin-top: 1em;
+      text-align: center; }
+    body .contacto form .botones input {
+      width: 49%;
+      margin: auto;
+      padding: 0;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box; }
 
 body footer {
+  margin: auto auto auto auto;
   background-color: #333333;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -39,8 +140,73 @@ body footer {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  color: #FFFAEA; }
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #FFFAEA;
+  min-height: 5em; }
   body footer span {
     line-height: 2em; }
   body footer .social a {
-    text-decoration: none; }
+    text-decoration: none;
+    color: #FFFAEA; }
+  body footer .social a:hover {
+    color: rgba(225, 168, 55, 0.43); }
+
+@media (max-width: 360px) {
+  header nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  header nav li {
+    padding: 1em; }
+  .acercaDeMi {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    .acercaDeMi h2 {
+      font-size: 1.3em;
+      display: inline;
+      text-align: center; }
+    .acercaDeMi ol, .acercaDeMi li {
+      padding-top: 0.4em;
+      padding-bottom: 0.4em; }
+    .acercaDeMi .informacionIzquierda {
+      margin: auto; }
+    .acercaDeMi .informacionDerecha {
+      margin: auto; }
+  .experiencia .lenguajes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .proyectos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .contacto form {
+    width: 60%; }
+    .contacto form textarea {
+      width: 100%; }
+    .contacto form .botones {
+      padding-top: 1em; }
+      .contacto form .botones input:first-child {
+        width: 100%; }
+      .contacto form .botones input:last-child {
+        width: 100%;
+        margin-top: 1em; } }
