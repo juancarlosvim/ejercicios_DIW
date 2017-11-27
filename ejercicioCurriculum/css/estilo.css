@@ -191,6 +191,10 @@ body footer {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column; }
+    .experiencia .lenguajes div {
+      width: auto !important; }
+      .experiencia .lenguajes div p {
+        text-align: center; }
   .proyectos {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -199,6 +203,10 @@ body footer {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column; }
+    .proyectos div {
+      width: auto !important; }
+      .proyectos div p {
+        text-align: center; }
   .contacto form {
     width: 60%; }
     .contacto form textarea {

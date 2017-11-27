@@ -236,12 +236,25 @@ body{
 
       display: flex;
       flex-direction: column;
+      div{
+        width: auto !important;
+        p {
+          text-align: center;
+        }
+      }
     }
   }
 
   .proyectos{
     display: flex;
     flex-direction: column;
+
+    div{
+      width: auto !important;
+      p {
+        text-align: center;
+      }
+    }
 
 
   }
