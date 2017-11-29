@@ -8,35 +8,48 @@
 /*reset */
 body header {
   background-color: #333333;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
+  position: fixed;
+  width: 100%;
+  height: 10rem;
+  top: 0%; }
+  body header .logo {
+    width: 5rem;
+    padding: 1em;
+    display: inline-block; }
   body header nav {
-    width: 40%; }
-    body header nav ul {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -ms-flex-pack: distribute;
-          justify-content: space-around; }
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+    background-color: rgba(25, 34, 51, 0.22); }
     body header nav li {
       list-style: none; }
     body header nav a {
       text-decoration: none;
-      color: #FFFAEA; }
+      color: white;
+      -webkit-transition: all 0.5s;
+      transition: all 0.5s; }
     body header nav a:hover {
       color: rgba(225, 168, 55, 0.43); }
+  body header #checkMenu:checked ~ nav {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%); }
+  body header #checkMenu:checked ~ label:before {
+    content: "\f00d"; }
+  body header #checkMenu {
+    display: none; }
+  body header .icono {
+    float: right;
+    line-height: 10rem;
+    font-size: 2em;
+    color: white; }
+  body header .icono:hover {
+    color: rgba(225, 168, 55, 0.43); }
 
 body .inicio {
   background-color: rgba(65, 62, 52, 0.2);
   min-height: 30em;
-  margin: auto;
+  margin-top: 9.5em;
   text-align: center;
   padding: 1em; }
 
@@ -151,7 +164,40 @@ body footer {
     text-decoration: none;
     color: #FFFAEA; }
   body footer .social a:hover {
-    color: rgba(225, 168, 55, 0.43); }
+    color: #FFFAEA; }
+
+@media screen and (min-width: 1024px) {
+  header nav {
+    position: static;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    float: right;
+    width: auto;
+    line-height: 2em; }
+  header .icono {
+    display: none; }
+  header li {
+    display: inline-block;
+    list-style: none;
+    background-color: #7C8389; }
+  header a:hover {
+    background-color: #FFFAEA; }
+  header a {
+    display: block;
+    padding: 0 2em; } }
 
 @media (max-width: 360px) {
   header nav ul {

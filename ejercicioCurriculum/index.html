@@ -14,6 +14,9 @@
         <div class="logo">
             <img src="img/usuario.png" alt="">
         </div>
+        <input type="checkbox" id="checkMenu">
+        <label for="checkMenu" class="fa fa-bars fa-3x icono" >
+        </label>
         <nav>
             <ul>
                 <li><a href="#inicioPrincipal">Inicio</a></li>
@@ -145,12 +148,12 @@
     <div class="contacto" id="contactoPrincipal">
         <form action="">
 
-            <label>Nombre</label>
-            <input type="text" name="nombre">
-            <label >Correo electrónico</label>
-            <input type="email" name="email">
-            <label>Descripción</label>
-            <textarea name="descripcion" id="" cols="30" rows="10"></textarea>
+            <label for="nombreFormulario">Nombre</label>
+            <input type="text" name="nombre" id="nombreFormulario">
+            <label for="emailFormulario">Correo electrónico</label>
+            <input type="email" name="email" id="emailFormulario">
+            <label for="txaDescripcion">Descripción</label>
+            <textarea name="descripcion" id="txaDescripcion" cols="30" rows="10"></textarea>
 
             <div class="botones">
                 <input type="reset" value="Limpiar" name="limpiar">
