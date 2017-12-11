@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body{
 
   background-image: url("../img/rose2.jpg");
@@ -9,7 +14,19 @@ body{
     color: white;
     position: relative;
     left: 50%;
-    bottom: -500px;
+    bottom: 0;
     background-color: rgba(0, 0, 0, 0.43);
+    font-size: 1.2em;
+
   }
+}
+
+@media (max-width: 405px){
+  .texto{
+    p{
+      font-size: 0.7em;
+    }
+
+  }
+
 }
