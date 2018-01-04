@@ -1,0 +1,88 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+/* end reset */
+/* font */
+@font-face {
+  font-family: 'roughtypewriterregular';
+  src: url("../fonts/rough_typewriter/rough_typewriter.otf"); }
+
+/* end font */
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  background-image: url("../img/background-image_TheUnguided2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 50em; }
+  header nav {
+    margin-top: 6em;
+    margin-right: 5em;
+    background-color: #333333; }
+    header nav li {
+      display: inline-block; }
+      header nav li a {
+        padding: 0 0.2em;
+        text-decoration: none;
+        color: #f3f3f3;
+        font-family: roughtypewriterregular;
+        text-transform: uppercase;
+        font-size: 1.4em; }
+      header nav li a:hover {
+        color: #5C5F66; }
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+section {
+  background-color: #000000; }
+  section h1 {
+    font-family: roughtypewriterregular;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #5C5F66;
+    color: #f3f3f3; }
+  section article {
+    margin-top: 1em; }
+    section article h3 {
+      color: #bebeaf;
+      text-transform: uppercase; }
+    section article p {
+      padding: 0.2em;
+      color: #bebeaf; }
+  section a {
+    font-family: roughtypewriterregular;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.8em;
+    color: #057911; }
+
+aside {
+  background-color: #9D9998; }
+  aside h2 {
+    text-align: center;
+    font-family: roughtypewriterregular;
+    text-transform: uppercase;
+    color: #f3f3f3; }
+
+footer {
+  background-color: #333333;
+  font-family: roughtypewriterregular;
+  text-transform: uppercase;
+  color: #f3f3f3; }

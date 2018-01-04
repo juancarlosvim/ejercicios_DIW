@@ -1,0 +1,119 @@
+//variable
+$main_font: roughtypewriterregular;
+$colour_nav: #f3f3f3;
+$background-colour-nav: #333333;
+$colour_a-hover: #5C5F66;
+$font-size_nav: 1.4em;
+$font-size-section_a: 1.8em;
+$background-colour-section: #000000;
+$background-colour-section_h1: #5C5F66;
+$background-colour-aside: #9D9998;
+$colour-section_p: #bebeaf;
+$colour-section_a: #057911;
+/* reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+/* end reset */
+
+/* font */
+@font-face {
+  font-family: 'roughtypewriterregular';
+  src: url("../fonts/rough_typewriter/rough_typewriter.otf");
+}
+/* end font */
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-image: url("../img/background-image_TheUnguided2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 50em;
+
+
+
+  nav{
+    margin-top: 6em;
+    margin-right: 5em;
+    background-color: $background-colour-nav;
+    li{
+
+      display: inline-block;
+      a{
+        padding: 0 0.2em;
+        text-decoration: none;
+        color: $colour_nav;
+        font-family: $main_font;
+        text-transform: uppercase;
+        font-size: $font-size_nav;
+      }
+      a:hover{
+        color: $colour_a-hover;
+      }
+    }
+  }
+}
+main{
+
+  display: flex;
+  justify-content: center;
+
+
+}
+section{
+  background-color: $background-colour-section;
+
+  h1{
+    font-family: $main_font;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: $background-colour-section_h1;
+    color: $colour_nav;
+
+  }
+  article{
+    margin-top: 1em;
+    h3{
+      color: $colour-section_p;
+      text-transform: uppercase;
+    }
+    img{
+
+    }
+    p{
+      padding: 0.2em;
+      color: $colour-section_p;
+    }
+  }
+  a{
+    font-family: $main_font;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: $font-size-section_a;
+    color: $colour-section_a;
+
+
+  }
+}
+aside{
+  background-color: $background-colour-aside;
+
+  h2{
+    text-align: center;
+    font-family: $main_font;
+    text-transform: uppercase;
+    color: $colour_nav;
+  }
+}
+
+footer{
+  background-color: $background-colour-nav;
+  font-family: $main_font;
+  text-transform: uppercase;
+  color: $colour_nav;
+}
