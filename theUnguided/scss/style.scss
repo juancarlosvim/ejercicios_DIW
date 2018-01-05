@@ -1,13 +1,13 @@
 //variable
-$main_font: roughtypewriterregular;
+$font_main: roughtypewriterregular;
 $colour_nav: #f3f3f3;
 $background-colour-nav: #333333;
 $colour_a-hover: #5C5F66;
-$font-size_nav: 1.4em;
-$font-size-section_a: 1.8em;
+$font-size_nav: 2em;
+$font-size-section_a: 2em;
 $background-colour-section: #000000;
 $background-colour-section_h1: #5C5F66;
-$background-colour-aside: #9D9998;
+$background-colour-aside: #00263E;
 $colour-section_p: #bebeaf;
 $colour-section_a: #057911;
 /* reset */
@@ -28,7 +28,7 @@ $colour-section_a: #057911;
 
 header{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: flex-start;
   background-image: url("../img/background-image_TheUnguided2.jpg");
   background-repeat: no-repeat;
@@ -39,7 +39,8 @@ header{
 
   nav{
     margin-top: 6em;
-    margin-right: 5em;
+
+
     background-color: $background-colour-nav;
     li{
 
@@ -48,7 +49,7 @@ header{
         padding: 0 0.2em;
         text-decoration: none;
         color: $colour_nav;
-        font-family: $main_font;
+        font-family: $font_main;
         text-transform: uppercase;
         font-size: $font-size_nav;
       }
@@ -69,7 +70,7 @@ section{
   background-color: $background-colour-section;
 
   h1{
-    font-family: $main_font;
+    font-family: $font_main;
     text-align: center;
     text-transform: uppercase;
     background-color: $background-colour-section_h1;
@@ -85,35 +86,76 @@ section{
     img{
 
     }
+    .youtubeVideo{
+      text-align: center;
+      iframe{
+        width: 50%;
+        height: 30em;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+    .imagePost{
+      text-align: center;
+    }
     p{
       padding: 0.2em;
       color: $colour-section_p;
     }
   }
-  a{
-    font-family: $main_font;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: $font-size-section_a;
-    color: $colour-section_a;
 
 
+  .moreNews{
+    text-align: center;
+    a{
+
+      font-family: $font_main;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: $font-size-section_a;
+      color: $colour-section_a;
+
+
+    }
   }
+
 }
 aside{
   background-color: $background-colour-aside;
 
   h2{
     text-align: center;
-    font-family: $main_font;
+    font-family: $font_main;
     text-transform: uppercase;
     color: $colour_nav;
+    margin: 0.5em 0;
+  }
+  .socialMedia{
+    text-align: center;
   }
 }
 
 footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: $background-colour-nav;
-  font-family: $main_font;
+  font-family: $font_main;
   text-transform: uppercase;
   color: $colour_nav;
+  p{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  a{
+    text-decoration: none;
+    color: $colour_nav;
+
+  }
+  a:hover{
+    color: $colour_a-hover;
+  }
+  i{
+    padding: 0.3em;
+  }
 }

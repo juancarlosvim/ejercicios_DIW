@@ -16,9 +16,9 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
@@ -28,7 +28,6 @@ header {
   min-height: 50em; }
   header nav {
     margin-top: 6em;
-    margin-right: 5em;
     background-color: #333333; }
     header nav li {
       display: inline-block; }
@@ -38,7 +37,7 @@ header {
         color: #f3f3f3;
         font-family: roughtypewriterregular;
         text-transform: uppercase;
-        font-size: 1.4em; }
+        font-size: 2em; }
       header nav li a:hover {
         color: #5C5F66; }
 
@@ -63,26 +62,59 @@ section {
     section article h3 {
       color: #bebeaf;
       text-transform: uppercase; }
+    section article .youtubeVideo {
+      text-align: center; }
+      section article .youtubeVideo iframe {
+        width: 50%;
+        height: 30em;
+        margin-left: auto;
+        margin-right: auto; }
+    section article .imagePost {
+      text-align: center; }
     section article p {
       padding: 0.2em;
       color: #bebeaf; }
-  section a {
-    font-family: roughtypewriterregular;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 1.8em;
-    color: #057911; }
+  section .moreNews {
+    text-align: center; }
+    section .moreNews a {
+      font-family: roughtypewriterregular;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 2em;
+      color: #057911; }
 
 aside {
-  background-color: #9D9998; }
+  background-color: #00263E; }
   aside h2 {
     text-align: center;
     font-family: roughtypewriterregular;
     text-transform: uppercase;
-    color: #f3f3f3; }
+    color: #f3f3f3;
+    margin: 0.5em 0; }
+  aside .socialMedia {
+    text-align: center; }
 
 footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: #333333;
   font-family: roughtypewriterregular;
   text-transform: uppercase;
   color: #f3f3f3; }
+  footer p {
+    margin-left: auto;
+    margin-right: auto; }
+  footer a {
+    text-decoration: none;
+    color: #f3f3f3; }
+  footer a:hover {
+    color: #5C5F66; }
+  footer i {
+    padding: 0.3em; }
