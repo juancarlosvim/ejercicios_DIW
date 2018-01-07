@@ -2,6 +2,7 @@
 $font_main: roughtypewriterregular;
 $colour_nav: #f3f3f3;
 $background-colour-nav: #333333;
+
 $colour_a-hover: #5C5F66;
 $font-size_nav: 2em;
 $font-size-section_a: 2em;
@@ -29,7 +30,8 @@ $colour-section_a: #057911;
 header{
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+ align-items: flex-start;
+
   background-image: url("../img/background-image_TheUnguided2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -57,6 +59,9 @@ header{
         color: $colour_a-hover;
       }
     }
+    .social{
+      display: inline;
+    }
   }
 }
 main{
@@ -83,9 +88,6 @@ section{
       color: $colour-section_p;
       text-transform: uppercase;
     }
-    img{
-
-    }
     .youtubeVideo{
       text-align: center;
       iframe{
@@ -107,15 +109,16 @@ section{
 
   .moreNews{
     text-align: center;
+    margin-top: 0.5em;
     a{
-
       font-family: $font_main;
       text-decoration: none;
       text-transform: uppercase;
       font-size: $font-size-section_a;
       color: $colour-section_a;
-
-
+    }
+    a:hover{
+      color: $colour_nav;
     }
   }
 
@@ -130,8 +133,11 @@ aside{
     color: $colour_nav;
     margin: 0.5em 0;
   }
-  .socialMedia{
+  .disc{
     text-align: center;
+  }
+  .socialMedia{
+   text-align: center;
   }
 }
 
@@ -143,6 +149,9 @@ footer{
   font-family: $font_main;
   text-transform: uppercase;
   color: $colour_nav;
+  img{
+    padding: 0 1em;
+  }
   p{
     margin-left: auto;
     margin-right: auto;
@@ -158,4 +167,44 @@ footer{
   i{
     padding: 0.3em;
   }
+}
+
+//resolution mobile
+
+@media (max-width: 360px) {
+  header{
+
+
+
+    nav{
+      display: flex;
+      flex-direction: column;
+
+    }
+  }
+
+  main{
+    display: flex;
+    flex-direction: column;
+    section{
+
+      img{
+        width: 80%;
+      }
+
+      .youtubeVideo{
+        iframe{
+          width: 60%;
+          height: 20em;
+        }
+      }
+    }
+  }
+
+
+  footer{
+    display: flex;
+    flex-direction: column;
+  }
+
 }
