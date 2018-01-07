@@ -6,54 +6,54 @@
           box-sizing: border-box; }
 
 /*reset */
-body header {
+header {
   background-color: #333333;
   position: fixed;
   width: 100%;
   height: 10rem;
   top: 0%; }
-  body header .logo {
+  header .logo {
     width: 5rem;
     padding: 1em;
     display: inline-block; }
-  body header nav {
+  header nav {
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
     -webkit-transform: translateX(-100%);
             transform: translateX(-100%);
     background-color: rgba(25, 34, 51, 0.22); }
-    body header nav li {
+    header nav li {
       list-style: none; }
-    body header nav a {
+    header nav a {
       text-decoration: none;
       color: white;
       -webkit-transition: all 0.5s;
       transition: all 0.5s; }
-    body header nav a:hover {
+    header nav a:hover {
       color: rgba(225, 168, 55, 0.43); }
-  body header #checkMenu:checked ~ nav {
+  header #checkMenu:checked ~ nav {
     -webkit-transform: translateX(0%);
             transform: translateX(0%); }
-  body header #checkMenu:checked ~ label:before {
+  header #checkMenu:checked ~ label:before {
     content: "\f00d"; }
-  body header #checkMenu {
+  header #checkMenu {
     display: none; }
-  body header .icono {
+  header .icono {
     float: right;
     line-height: 10rem;
     font-size: 2em;
     color: white; }
-  body header .icono:hover {
+  header .icono:hover {
     color: rgba(225, 168, 55, 0.43); }
 
-body .inicio {
+.inicio {
   background-color: rgba(65, 62, 52, 0.2);
   min-height: 30em;
   margin-top: 9.5em;
   text-align: center;
   padding: 1em; }
 
-body .acercaDeMi {
+.acercaDeMi {
   background-color: rgba(225, 138, 22, 0.2);
   min-height: 25em;
   display: -webkit-box;
@@ -61,23 +61,23 @@ body .acercaDeMi {
   display: flex;
   margin: auto;
   padding: 1em; }
-  body .acercaDeMi .informacionIzquierda {
+  .acercaDeMi .informacionIzquierda {
     width: 50%; }
-  body .acercaDeMi .informacionDerecha {
+  .acercaDeMi .informacionDerecha {
     width: 50%; }
-  body .acercaDeMi h2 {
+  .acercaDeMi h2 {
     display: inline; }
-  body .acercaDeMi ul, body .acercaDeMi ol {
+  .acercaDeMi ul, .acercaDeMi ol {
     margin-left: 2.5em; }
 
-body .experiencia {
+.experiencia {
   background-color: rgba(225, 168, 55, 0.43);
   margin: auto;
   min-height: 30em;
   padding: 1em; }
-  body .experiencia h2 {
+  .experiencia h2 {
     text-align: center; }
-  body .experiencia .lenguajes {
+  .experiencia .lenguajes {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -86,14 +86,14 @@ body .experiencia {
             justify-content: space-between;
     margin: 1em auto auto auto;
     text-align: center; }
-    body .experiencia .lenguajes .lenguajeHtml {
+    .experiencia .lenguajes .lenguajeHtml {
       width: 30%; }
-    body .experiencia .lenguajes .lenguajeCss {
+    .experiencia .lenguajes .lenguajeCss {
       width: 30%; }
-    body .experiencia .lenguajes .lenguajeJavascript {
+    .experiencia .lenguajes .lenguajeJavascript {
       width: 30%; }
 
-body .proyectos {
+.proyectos {
   background-image: url("../img/fondoImagenProyectos.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -106,25 +106,25 @@ body .proyectos {
   min-height: 30em;
   text-align: center;
   padding: 2em; }
-  body .proyectos a {
+  .proyectos a {
     color: black; }
-  body .proyectos a:hover {
+  .proyectos a:hover {
     color: #FFFAEA; }
-  body .proyectos .proyecto1 {
+  .proyectos .proyecto1 {
     width: 30%; }
-  body .proyectos .proyecto2 {
+  .proyectos .proyecto2 {
     width: 30%; }
-  body .proyectos .proyecto3 {
+  .proyectos .proyecto3 {
     width: 30%; }
 
-body .contacto {
+.contacto {
   margin: auto;
   background-image: url("../img/fondoImagen2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: #FFFAEA;
   min-height: 30em; }
-  body .contacto form {
+  .contacto form {
     margin: auto auto auto auto;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -134,17 +134,17 @@ body .contacto {
         -ms-flex-direction: column;
             flex-direction: column;
     width: 30%; }
-    body .contacto form label {
+    .contacto form label {
       margin-top: 1em;
       text-align: center; }
-    body .contacto form .botones input {
+    .contacto form .botones input {
       width: 49%;
       margin: auto;
       padding: 0;
       -webkit-box-sizing: border-box;
               box-sizing: border-box; }
 
-body footer {
+footer {
   margin: auto auto auto auto;
   background-color: #333333;
   display: -webkit-box;
@@ -158,13 +158,13 @@ body footer {
           align-items: center;
   color: #FFFAEA;
   min-height: 5em; }
-  body footer span {
+  footer span {
     line-height: 2em; }
-  body footer .social a {
+  footer .social a {
     text-decoration: none;
     color: #FFFAEA; }
-  body footer .social a:hover {
-    color: #FFFAEA; }
+  footer .social a:hover {
+    color: rgba(225, 168, 55, 0.43); }
 
 @media screen and (min-width: 1024px) {
   header nav {
@@ -182,8 +182,8 @@ body footer {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
     float: right;
     width: auto;
     line-height: 2em; }

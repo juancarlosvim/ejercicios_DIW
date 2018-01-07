@@ -1,0 +1,25 @@
+h1{
+  margin-bottom: 1em;
+}
+.imagenes{
+    display: flex;
+    justify-content: center;
+  .img2{
+    position: relative;
+    transform: rotate(20deg);
+    right: 2em;
+    z-index: 2;
+  }
+  .img3{
+    position: relative;
+    right: 3em;
+  }
+  .img4{
+    position: relative;
+    transform: rotate(-20deg);
+    right: 4em;
+
+  }
+
+}
+

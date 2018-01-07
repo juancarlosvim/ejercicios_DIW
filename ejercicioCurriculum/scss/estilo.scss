@@ -20,8 +20,6 @@ $alto_logo: 10rem;
   box-sizing: border-box;
 }
 /*reset */
-body{
-
   header{
 
     background-color: $color_fondo_header;
@@ -220,11 +218,11 @@ body{
         color: $color_letra_footer;
       }
       a:hover{
-          color: $color_letra_footer;
+          color: $color_fondo_experiencia;
       }
     }
   }
-}
+
 
 //resolucion escritorio
 @media screen and (min-width: 1024px){
@@ -237,7 +235,7 @@ body{
       justify-content: space-between;
       flex-direction: row;
       align-items: center;
-      transform: translateX(0);
+      transform: translateX(0%);
       float: right;
       width: auto;
       line-height: 2em;
