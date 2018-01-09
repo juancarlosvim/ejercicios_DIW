@@ -1,0 +1,81 @@
+//variables
+$fondo_main: #1E3E51;
+$fondo_button: #A9A9A9;
+$fondo_button-hover: #7FFFD4;
+$color_letra: #FFFFFF;
+/*
+  reset
+ */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*
+  end reset
+ */
+body{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1em;
+  .logo{
+    display: flex;
+    align-items: center;
+    img{
+      border-radius: 50%;
+      width: 6em;
+    }
+    h1{
+      padding-left: 1em;
+
+      font-size: 1.4em;
+    }
+  }
+  nav{
+    a{
+      text-decoration: none;
+    }
+    button{
+      background-color: $fondo_button;
+      border-radius: 1em;
+      width: 8em;
+      height: 2.5em;
+    }
+    button:hover{
+      background-color: $fondo_button-hover;
+    }
+  }
+}
+main{
+
+  background-color: $fondo_main;
+  .imagen{
+    padding-top: 1em;
+    text-align: center;
+  }
+  section{
+    margin-top: 1em;
+    min-height: 20em;
+    display: flex;
+    justify-content: space-between;
+    color: $color_letra;
+    .contenidoIzquierda{
+      padding: 1em;
+       width: 50%;
+
+    }
+    .contenidoDerecha{
+      padding: 1em;
+      height: 30em;
+      width: 50%;
+      overflow: auto;
+    }
+  }
+
+}
