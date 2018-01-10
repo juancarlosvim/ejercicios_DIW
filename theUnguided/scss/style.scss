@@ -11,6 +11,8 @@ $background-colour-section_h1: #5C5F66;
 $background-colour-aside: #00263E;
 $colour-section_p: #bebeaf;
 $colour-section_a: #057911;
+$fondo_imagen-header: "../img/background-image_TheUnguided2.jpg";
+$fondo_imagen-aside: "../img/aside.jpg";
 /* reset */
 *{
   margin: 0;
@@ -23,7 +25,7 @@ $colour-section_a: #057911;
 /* font */
 @font-face {
   font-family: 'roughtypewriterregular';
-  src: url("../fonts/rough_typewriter/rough_typewriter.otf");
+  src: url($fondo_imagen-header);
 }
 /* end font */
 
@@ -124,14 +126,15 @@ section{
 
 }
 aside{
-  background-color: $background-colour-aside;
-
+  background-image: url($fondo_imagen-aside);
   h2{
+
+
     text-align: center;
     font-family: $font_main;
     text-transform: uppercase;
     color: $colour_nav;
-    margin: 0.5em 0;
+
   }
   .disc{
     text-align: center;
@@ -139,6 +142,12 @@ aside{
   .socialMedia{
    text-align: center;
   }
+  .instagram{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 }
 
 footer{

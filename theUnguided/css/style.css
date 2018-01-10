@@ -9,7 +9,7 @@
 /* font */
 @font-face {
   font-family: 'roughtypewriterregular';
-  src: url("../fonts/rough_typewriter/rough_typewriter.otf"); }
+  src: url("../img/background-image_TheUnguided2.jpg"); }
 
 /* end font */
 header {
@@ -89,17 +89,20 @@ section {
       color: #f3f3f3; }
 
 aside {
-  background-color: #00263E; }
+  background-image: url("../img/aside.jpg"); }
   aside h2 {
     text-align: center;
     font-family: roughtypewriterregular;
     text-transform: uppercase;
-    color: #f3f3f3;
-    margin: 0.5em 0; }
+    color: #f3f3f3; }
   aside .disc {
     text-align: center; }
   aside .socialMedia {
     text-align: center; }
+  aside .instagram {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto; }
 
 footer {
   display: -webkit-box;
