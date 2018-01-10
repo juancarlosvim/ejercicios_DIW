@@ -136,6 +136,9 @@ aside{
     color: $colour_nav;
 
   }
+  h2:not(:first-child){
+    margin: 0.5em;
+  }
   .disc{
     text-align: center;
   }
