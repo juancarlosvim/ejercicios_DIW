@@ -1,33 +1,27 @@
+block variables
+    include ../config/variables
+    - var paginaActual = 0;
+    - var fotoActual = "img/"+arrayImagenes[paginaActual]
+    - var titulo = "PruebaPug | "+imagenes[paginaActual]
 doctype html
 html(lang='es')
     head
         meta(charset='utf-8')
         meta(http-equiv='X-UA-Compatible', content='IE=edge')
-        title
+        title #{titulo}
         meta(name='description', content='')
         meta(name='viewport', content='width=device-width, initial-scale=1')
-        link(rel='stylesheet', href='../../css/estilo.css')
+        link(rel='stylesheet', href='css/estilo.css')
     body
         header
-            div.logo
-                img(src='../../img/logo1.jpg' alt='logoWeb')
-                h1 Bambi S.L
-            nav
-                - var enlaces = ["index.html", "naturaleza.html", "noche.html", "personas.html", "trabajo.html", "animales.html"]
-                each valor, index in ["Iglesia", "Naturaleza", "Noche", "Personas", "Trabajo", "Animales"]
-                    a(href=enlaces[index])
-                        button #{valor}
+            include ../blocks/header
+
         main
             div.imagen
-                block imagenPrincipal
-                    img(src='../../img/iglesia.jpg')
+                    img(src=fotoActual)
 
             section
-                    div.contenidoIzquierda
-                        block articulo
-
-                    div.contenidoDerecha
-                        block articulo2
+                   block contenido
 
 
 

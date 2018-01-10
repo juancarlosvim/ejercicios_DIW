@@ -69,6 +69,6 @@ main {
       width: 50%; }
     main section .contenidoDerecha {
       padding: 1em;
-      height: 30em;
       width: 50%;
+      height: 30em;
       overflow: auto; }
