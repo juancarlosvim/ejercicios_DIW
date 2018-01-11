@@ -95,6 +95,8 @@ aside {
     font-family: roughtypewriterregular;
     text-transform: uppercase;
     color: #f3f3f3; }
+  aside h2:not(:first-child) {
+    margin: 0.5em; }
   aside .disc {
     text-align: center; }
   aside .socialMedia {
