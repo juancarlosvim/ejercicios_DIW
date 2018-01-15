@@ -1,0 +1,19 @@
+div.social
+    div.nombre
+    strong Telepizza España
+    div.iconosSocial
+        each valor, index in imagenesSocial
+            a(target="_blank", href=enlacesSocial[index])
+                img(src=ruta+valor)
+div.contenidoFooter
+    div.logoFooter
+        a(href="/")
+            img(src=logoTelepizza)
+        p #{telefono}
+    div.informacion
+        div.productos
+        div.nutricionCalidad
+        div.avisoLegal
+        div.desdeTuMovil
+        div.corporativo
+        div.ayuda

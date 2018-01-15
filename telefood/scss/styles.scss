@@ -1,0 +1,22 @@
+// variables
+$color-fondo_header: #DE1526;
+$color-fondo_social: #A1271F;
+$color-fondo_contenidoFooter: #DE1526;
+*,
+::after,
+::before{
+  box-sizing: border-box;
+}
+header{
+  background-color: $color-fondo_header;
+}
+
+footer{
+  .contenidoFooter{
+    background-color: $color-fondo_contenidoFooter;
+  }
+  .social{
+      background-color: $color-fondo_social;
+  }
+
+}
