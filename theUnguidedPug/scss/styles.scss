@@ -18,6 +18,8 @@ $font_path: "../fonts/rough_typewriter/rough_typewriter.otf";
 ::after,
 ::before{
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 /* font */
 @font-face {
@@ -39,6 +41,7 @@ header{
   nav{
     margin-top: 6em;
     background-color: $background-colour-nav;
+    padding: 1em;
     li{
       display: inline-block;
       a{
@@ -60,7 +63,8 @@ header{
 }
 main{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  background-color: red;
 }
 section{
   background-color: $background-colour-section;
@@ -81,7 +85,7 @@ section{
     h3{
       color: $colour-section_p;
       text-transform: uppercase;
-      padding: 0 0.5em;
+      padding: 0.5em 0.5em;
     }
     h4{
       color: $colour-section_p;
