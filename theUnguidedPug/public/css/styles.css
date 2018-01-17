@@ -177,6 +177,7 @@ section .moreNews a:hover {
   -ms-flex-direction: column;
   flex-direction: column;
   border: 0.1em dotted #5C5F66;
+  text-transform: uppercase;
 }
 
 .tour .date h4 {
@@ -294,6 +295,14 @@ aside {
   background-image: url("../img/aside.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+aside .disc {
+  text-align: center;
+}
+
+aside .disc img {
+  width: 90%;
 }
 
 aside h2 {

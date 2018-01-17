@@ -153,6 +153,7 @@ section{
     align-items: center;
     flex-direction: column;
     border: 0.1em dotted $background-colour-section_h1;
+    text-transform: uppercase;
     h4{
       margin-top: 1em;
     }
@@ -260,6 +261,13 @@ aside{
   background-image: url($fondo_imagen-aside);
   background-repeat: no-repeat;
   background-size: cover;
+
+  .disc{
+    text-align: center;
+    img{
+      width: 90%;
+    }
+  }
 
   h2{
 
