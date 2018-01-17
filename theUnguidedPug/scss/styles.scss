@@ -110,7 +110,6 @@ section{
     }
   }
 
-
   .moreNews{
     text-align: center;
     margin-top: 0.5em;
@@ -124,6 +123,77 @@ section{
     a:hover{
       color: $colour_nav;
     }
+  }
+  /* tourDates*/
+  .tourDates{
+    color: $colour-section_p;
+    text-transform: uppercase;
+    text-align: center;
+
+  }
+  .tour{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    h3{
+      font-family: $font_main;
+    }
+    .date{
+      padding: 0.67em;
+      margin-top: 0.67em;
+      font-family: $font_main;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      border: 0.1em dotted $background-colour-section_h1;
+      h4{
+        margin-top: 1em;
+      }
+      p{
+        margin-top: 1em;
+        font-family: $font_main;
+      }
+      a{
+        font-family: $font_main;
+        margin-top: 1em;
+        text-decoration: none;
+        color: $colour-section_p;
+        text-transform: uppercase;
+
+      }
+      a:hover{
+        color: $colour_a-hover;
+      }
+    }
+
+  }
+
+  /* end tourDates*/
+
+  /* page contact*/
+  .contact{
+    color: $colour-section_p;
+    text-align: center;
+    h2{
+      font-family: $font_main;
+      text-transform: uppercase;
+    }
+    a{
+      text-decoration: none;
+      color: $colour-section_p;
+      i{
+        margin: 0.67em 0;
+        display: block;
+      }
+    }
+    a:hover{
+      color: $colour_a-hover;
+    }
+
+    /* end contact */
+
   }
 
 }

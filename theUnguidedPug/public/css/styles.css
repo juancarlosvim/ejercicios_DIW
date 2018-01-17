@@ -72,6 +72,9 @@ section {
   -webkit-box-flex: 1;
   -ms-flex: 1 100%;
   flex: 1 100%;
+  /* tourDates*/
+  /* end tourDates*/
+  /* page contact*/
 }
 
 section h1 {
@@ -133,6 +136,94 @@ section .moreNews a {
 
 section .moreNews a:hover {
   color: #f3f3f3;
+}
+
+section .tourDates {
+  color: #bebeaf;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+section .tour {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+section .tour h3 {
+  font-family: roughtypewriterregular;
+}
+
+section .tour .date {
+  padding: 0.67em;
+  margin-top: 0.67em;
+  font-family: roughtypewriterregular;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  border: 0.1em dotted #5C5F66;
+}
+
+section .tour .date h4 {
+  margin-top: 1em;
+}
+
+section .tour .date p {
+  margin-top: 1em;
+  font-family: roughtypewriterregular;
+}
+
+section .tour .date a {
+  font-family: roughtypewriterregular;
+  margin-top: 1em;
+  text-decoration: none;
+  color: #bebeaf;
+  text-transform: uppercase;
+}
+
+section .tour .date a:hover {
+  color: #5C5F66;
+}
+
+section .contact {
+  color: #bebeaf;
+  text-align: center;
+  /* end contact */
+}
+
+section .contact h2 {
+  font-family: roughtypewriterregular;
+  text-transform: uppercase;
+}
+
+section .contact a {
+  text-decoration: none;
+  color: #bebeaf;
+}
+
+section .contact a i {
+  margin: 0.67em 0;
+  display: block;
+}
+
+section .contact a:hover {
+  color: #5C5F66;
 }
 
 aside {
