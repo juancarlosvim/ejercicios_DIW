@@ -69,6 +69,9 @@ main {
 
 section {
   background-color: #000000;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 100%;
+  flex: 1 100%;
 }
 
 section h1 {
