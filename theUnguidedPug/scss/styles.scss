@@ -104,6 +104,7 @@ section{
     .imagePost{
       text-align: center;
     }
+
     p{
       padding: 0 0.5em;
       color: $colour-section_p;
@@ -124,79 +125,137 @@ section{
       color: $colour_nav;
     }
   }
-  /* tourDates*/
-  .tourDates{
-    color: $colour-section_p;
-    text-transform: uppercase;
-    text-align: center;
 
+}
+
+/* tourDates*/
+.tourDates{
+  color: $colour-section_p;
+  text-transform: uppercase;
+  text-align: center;
+
+}
+.tour{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  h4{
+    font-family: $font_main;
+    color: $colour-section_p;
   }
-  .tour{
+  .date{
+    padding: 0.67em;
+    margin-top: 0.67em;
+    font-family: $font_main;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    h3{
-      font-family: $font_main;
+    flex-direction: column;
+    border: 0.1em dotted $background-colour-section_h1;
+    h4{
+      margin-top: 1em;
     }
-    .date{
-      padding: 0.67em;
-      margin-top: 0.67em;
+    p{
+      margin-top: 1em;
       font-family: $font_main;
-      display: flex;
-      align-items: center;
-      flex-direction: column;
-      border: 0.1em dotted $background-colour-section_h1;
-      h4{
-        margin-top: 1em;
-      }
-      p{
-        margin-top: 1em;
-        font-family: $font_main;
-      }
-      a{
-        font-family: $font_main;
-        margin-top: 1em;
-        text-decoration: none;
-        color: $colour-section_p;
-        text-transform: uppercase;
-
-      }
-      a:hover{
-        color: $colour_a-hover;
-      }
-    }
-
-  }
-
-  /* end tourDates*/
-
-  /* page contact*/
-  .contact{
-    color: $colour-section_p;
-    text-align: center;
-    h2{
-      font-family: $font_main;
-      text-transform: uppercase;
+      color: $colour-section_p;
     }
     a{
+      font-family: $font_main;
+      margin-top: 1em;
       text-decoration: none;
       color: $colour-section_p;
-      i{
-        margin: 0.67em 0;
-        display: block;
-      }
+      text-transform: uppercase;
+
     }
     a:hover{
       color: $colour_a-hover;
     }
-
-    /* end contact */
-
   }
 
 }
+
+/* end tourDates*/
+
+/*
+ theUnguided
+ */
+.theUnguided {
+
+  strong{
+    color: $colour-section_p;
+  }
+
+  article{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+    padding: 1em;
+    strong{
+      font-family: $font_main;
+      margin-top: 1em;
+      padding: 0 1em;
+    }
+    p{
+      padding: 0 1em;
+      margin-top: 0.67em;
+
+    }
+    .followSocial{
+
+      text-align: center;
+      p{
+        margin-bottom: 0.67em;
+      }
+      a{
+        text-decoration: none;
+        color: $colour-section_p;
+        padding: 1em;
+      }
+    }
+    .links {
+      color: $colour-section_p;
+      padding: 0 1em;
+      a {
+        color: $colour-section_p;
+        text-decoration: none;
+        font-style: oblique;
+
+      }
+    }
+
+    a:hover{
+      color: $colour_a-hover;
+    }
+  }
+
+}
+/*
+ end theUnguided
+ */
+
+/* page contact*/
+.contact{
+  color: $colour-section_p;
+  text-align: center;
+  h2{
+    font-family: $font_main;
+    text-transform: uppercase;
+  }
+  a{
+    text-decoration: none;
+    color: $colour-section_p;
+    i{
+      margin: 0.67em 0;
+      display: block;
+    }
+  }
+  a:hover{
+    color: $colour_a-hover;
+  }
+}
+/* end contact */
 aside{
   background-image: url($fondo_imagen-aside);
   background-repeat: no-repeat;
