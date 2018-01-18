@@ -1,0 +1,23 @@
+/* story*/
+.story h4 {
+  color: #bebeaf;
+  margin: 1em 0;
+  padding: 0.5em 0.5em;
+}
+
+.story article {
+  border-bottom: 0.2em dotted #bebeaf;
+}
+
+.story strong {
+  color: #bebeaf;
+  padding: 0.5em 0.5em;
+}
+
+.story p {
+  padding: 0.5em 0.5em;
+}
+
+/*
+ end story
+ */

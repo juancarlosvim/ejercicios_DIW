@@ -1,19 +1,4 @@
-//variables
-$font_main: roughtypewriterregular;
-$colour_nav: #f3f3f3;
-$background-colour-nav: #333333;
-
-$colour_a-hover: #5C5F66;
-$font-size_nav: 1.5em;
-$font-size-section_a: 2em;
-$background-colour-section: #000000;
-$background-colour-section_h1: #5C5F66;
-$background-colour-aside: #00263E;
-$colour-section_p: #bebeaf;
-$colour-section_a: #057911;
-$fondo_imagen-header: "../img/background-image_TheUnguided2.jpg";
-$fondo_imagen-aside: "../img/aside.jpg";
-$font_path: "../fonts/rough_typewriter/rough_typewriter.otf";
+@import "_variables.scss";
 *,
 ::after,
 ::before{
@@ -102,7 +87,11 @@ section{
       }
     }
     .imagePost{
+      margin-top: 0.67em;
       text-align: center;
+      img{
+        width: $imgPostWith;
+      }
     }
 
     p{
@@ -128,113 +117,9 @@ section{
 
 }
 
-/* tourDates*/
-.tourDates{
-  color: $colour-section_p;
-  text-transform: uppercase;
-  text-align: center;
 
-}
-.tour{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 1em;
-  margin-bottom: 1em;
-  h4{
-    font-family: $font_main;
-    color: $colour-section_p;
-  }
-  .date{
-    padding: 0.67em;
-    margin-top: 0.67em;
-    font-family: $font_main;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    border: 0.1em dotted $background-colour-section_h1;
-    text-transform: uppercase;
-    h4{
-      margin-top: 1em;
-    }
-    p{
-      margin-top: 1em;
-      font-family: $font_main;
-      color: $colour-section_p;
-    }
-    a{
-      font-family: $font_main;
-      margin-top: 1em;
-      text-decoration: none;
-      color: $colour-section_p;
-      text-transform: uppercase;
 
-    }
-    a:hover{
-      color: $colour_a-hover;
-    }
-  }
 
-}
-
-/* end tourDates*/
-
-/*
- theUnguided
- */
-.theUnguided {
-
-  strong{
-    color: $colour-section_p;
-  }
-
-  article{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 1em;
-    padding: 1em;
-    strong{
-      font-family: $font_main;
-      margin-top: 1em;
-      padding: 0 1em;
-    }
-    p{
-      padding: 0 1em;
-      margin-top: 0.67em;
-
-    }
-    .followSocial{
-
-      text-align: center;
-      p{
-        margin-bottom: 0.67em;
-      }
-      a{
-        text-decoration: none;
-        color: $colour-section_p;
-        padding: 1em;
-      }
-    }
-    .links {
-      color: $colour-section_p;
-      padding: 0 1em;
-      a {
-        color: $colour-section_p;
-        text-decoration: none;
-        font-style: oblique;
-
-      }
-    }
-
-    a:hover{
-      color: $colour_a-hover;
-    }
-  }
-
-}
-/*
- end theUnguided
- */
 
 /* page contact*/
 .contact{

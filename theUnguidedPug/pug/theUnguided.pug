@@ -2,12 +2,14 @@ extends templates/template
 append variables
     - currentPage = 2
     - webpageTitle = "The Unguided Unofficial website | "+names[currentPage]
+block link-css
+    link(rel="stylesheet", href="css/the-unguided.css")
 block content
     h1 #{names[currentPage]}
     div.theUnguided
         article
             div.imagePost
-                +imagePost("theUnguidedLogo.jpg")
+                +imagePost("theUnguidedLogo2.jpg")
             h3 press release 2017
             p Sadly former guitarist and singer Roland Johannsson has decided to leave The Unguided, but with new frontman; Jonathan Thorpenberg, THE UNGUIDED have found the perfect replacement! After having released a very well received 2-track EP in December of last year, it’s time to get ready for the full-length studio album! Please welcome “And The Battle Royale”.
             p Richard Sjunnesson states:

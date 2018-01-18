@@ -1,0 +1,76 @@
+/* tourDates*/
+.tourDates {
+  color: #bebeaf;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.tour {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.tour .imageEvent {
+  text-align: center;
+}
+
+.tour .imageEvent img {
+  width: 60%;
+}
+
+.tour h4 {
+  font-family: roughtypewriterregular;
+  color: #bebeaf;
+}
+
+.tour .date {
+  padding: 0.67em;
+  margin-top: 0.67em;
+  font-family: roughtypewriterregular;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  border: 0.1em dotted #5C5F66;
+  text-transform: uppercase;
+}
+
+.tour .date h4 {
+  margin-top: 1em;
+}
+
+.tour .date p {
+  margin-top: 1em;
+  font-family: roughtypewriterregular;
+  color: #bebeaf;
+}
+
+.tour .date a {
+  font-family: roughtypewriterregular;
+  margin-top: 1em;
+  text-decoration: none;
+  color: #bebeaf;
+  text-transform: uppercase;
+}
+
+.tour .date a:hover {
+  color: #5C5F66;
+}
+
+/* end tourDates*/

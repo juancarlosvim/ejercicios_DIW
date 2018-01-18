@@ -1,0 +1,60 @@
+/*
+ theUnguided
+ */
+.theUnguided strong {
+  color: #bebeaf;
+  padding: 0.5em 0.5em;
+}
+
+.theUnguided article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+.theUnguided article strong {
+  font-family: roughtypewriterregular;
+  margin-top: 1em;
+}
+
+.theUnguided article p {
+  margin-top: 0.67em;
+}
+
+.theUnguided article .followSocial {
+  text-align: center;
+}
+
+.theUnguided article .followSocial p {
+  margin-bottom: 0.67em;
+}
+
+.theUnguided article .followSocial a {
+  text-decoration: none;
+  color: #bebeaf;
+  padding: 1em;
+}
+
+.theUnguided article .links {
+  color: #bebeaf;
+  padding: 0 1em;
+}
+
+.theUnguided article .links a {
+  color: #bebeaf;
+  text-decoration: none;
+  font-style: oblique;
+}
+
+.theUnguided article a:hover {
+  color: #5C5F66;
+}
+
+/*
+ end theUnguided
+ */

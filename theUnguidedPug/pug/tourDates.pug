@@ -2,6 +2,8 @@ extends templates/template
 append variables
     - currentPage = 1
     - webpageTitle = "The Unguided Unofficial website | "+names[currentPage]
+block link-css
+    link(rel="stylesheet", href="css/tour-dates.css")
 block content
     h1 #{names[currentPage]}
         h3 upcoming targets

@@ -110,7 +110,12 @@ section article .youtubeVideo iframe {
 }
 
 section article .imagePost {
+  margin-top: 0.67em;
   text-align: center;
+}
+
+section article .imagePost img {
+  width: 70%;
 }
 
 section article p {
@@ -135,136 +140,6 @@ section .moreNews a:hover {
   color: #f3f3f3;
 }
 
-/* tourDates*/
-.tourDates {
-  color: #bebeaf;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-.tour {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  margin-top: 1em;
-  margin-bottom: 1em;
-}
-
-.tour h4 {
-  font-family: roughtypewriterregular;
-  color: #bebeaf;
-}
-
-.tour .date {
-  padding: 0.67em;
-  margin-top: 0.67em;
-  font-family: roughtypewriterregular;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  border: 0.1em dotted #5C5F66;
-  text-transform: uppercase;
-}
-
-.tour .date h4 {
-  margin-top: 1em;
-}
-
-.tour .date p {
-  margin-top: 1em;
-  font-family: roughtypewriterregular;
-  color: #bebeaf;
-}
-
-.tour .date a {
-  font-family: roughtypewriterregular;
-  margin-top: 1em;
-  text-decoration: none;
-  color: #bebeaf;
-  text-transform: uppercase;
-}
-
-.tour .date a:hover {
-  color: #5C5F66;
-}
-
-/* end tourDates*/
-/*
- theUnguided
- */
-.theUnguided strong {
-  color: #bebeaf;
-}
-
-.theUnguided article {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  margin-bottom: 1em;
-  padding: 1em;
-}
-
-.theUnguided article strong {
-  font-family: roughtypewriterregular;
-  margin-top: 1em;
-  padding: 0 1em;
-}
-
-.theUnguided article p {
-  padding: 0 1em;
-  margin-top: 0.67em;
-}
-
-.theUnguided article .followSocial {
-  text-align: center;
-}
-
-.theUnguided article .followSocial p {
-  margin-bottom: 0.67em;
-}
-
-.theUnguided article .followSocial a {
-  text-decoration: none;
-  color: #bebeaf;
-  padding: 1em;
-}
-
-.theUnguided article .links {
-  color: #bebeaf;
-  padding: 0 1em;
-}
-
-.theUnguided article .links a {
-  color: #bebeaf;
-  text-decoration: none;
-  font-style: oblique;
-}
-
-.theUnguided article a:hover {
-  color: #5C5F66;
-}
-
-/*
- end theUnguided
- */
 /* page contact*/
 .contact {
   color: #bebeaf;

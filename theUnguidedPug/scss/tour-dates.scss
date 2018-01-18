@@ -1,0 +1,58 @@
+@import "variables";
+/* tourDates*/
+.tourDates{
+  color: $colour-section_p;
+  text-transform: uppercase;
+  text-align: center;
+
+}
+.tour{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+
+  .imageEvent{
+    text-align: center;
+    img{
+      width: $imgEventWith;
+    }
+  }
+  h4{
+    font-family: $font_main;
+    color: $colour-section_p;
+  }
+  .date{
+    padding: 0.67em;
+    margin-top: 0.67em;
+    font-family: $font_main;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 0.1em dotted $background-colour-section_h1;
+    text-transform: uppercase;
+    h4{
+      margin-top: 1em;
+    }
+    p{
+      margin-top: 1em;
+      font-family: $font_main;
+      color: $colour-section_p;
+    }
+    a{
+      font-family: $font_main;
+      margin-top: 1em;
+      text-decoration: none;
+      color: $colour-section_p;
+      text-transform: uppercase;
+
+    }
+    a:hover{
+      color: $colour_a-hover;
+    }
+  }
+
+}
+
+/* end tourDates*/
