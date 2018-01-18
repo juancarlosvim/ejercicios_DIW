@@ -9,6 +9,10 @@
   border-bottom: 0.2em dotted #bebeaf;
 }
 
+.story article .imagePost img {
+  width: 50%;
+}
+
 .story strong {
   color: #bebeaf;
   padding: 0.5em 0.5em;

@@ -10,6 +10,13 @@
 
     article{
       border-bottom: 0.2em dotted $colour-section_p;
+      .imagePost{
+        img{
+          width: 50%;
+        }
+      }
+
+
     }
 
 
