@@ -1,0 +1,34 @@
+extends templates/template
+append variables
+    - currentPage = 4
+    - webpageTitle = "The Unguided Unofficial website | "+names[currentPage]
+block link-css
+    link(rel="stylesheet", href="css/releases.css")
+block content
+    h1 #{names[currentPage]}
+    div.releases
+        block contentDisc
+            include blocks/discBattleRoyale
+            include  blocks/discHeartBleed
+            include blocks/discLegendary
+            include blocks/discBrotherHood
+            include  blocks/discLustLoathing
+            include  blocks/discEnraged
+            include blocks/discFallenAngels
+            include blocks/discFragileImportality
+            include blocks/discInception
+            include blocks/discInvazion
+            include blocks/discDeathWalker
+            include blocks/discPandoraBox
+            include blocks/discPhoenixDown
+            include blocks/discMIracleOfMind
+            include blocks/discHellFrost
+            include blocks/discInheritTheEarth
+            include blocks/discBetrayerOfTheCode
+            include blocks/discNightMareland
+
+
+
+
+
+

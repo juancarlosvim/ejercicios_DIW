@@ -1,0 +1,75 @@
+/* releases */
+.releases {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.releases p {
+  padding: 0.67em;
+  color: #bebeaf;
+  font: roughtypewriterregular;
+  text-transform: uppercase;
+}
+
+.releases a {
+  padding: 1em;
+  color: #bebeaf;
+}
+
+.releases a:hover {
+  color: #5C5F66;
+}
+
+.releases .lyrics {
+  padding: 0.67em;
+}
+
+.releases .disc {
+  text-align: center;
+}
+
+.releases .buyDisc {
+  margin-bottom: 0.67em;
+}
+
+.releases .tracklist {
+  margin: auto;
+  padding: 1em;
+  border: 0.1em dotted #bebeaf;
+  margin-bottom: 0.67em;
+  width: 80%;
+}
+
+.releases .tracklist h3 {
+  color: #bebeaf;
+}
+
+.releases .tracklist h4 {
+  padding: 0.67em;
+  color: #bebeaf;
+}
+
+.releases .tracklist p {
+  padding: 0.2em;
+  color: #bebeaf;
+}
+
+.releases .tracklist a {
+  padding: 0.2em;
+  text-decoration: none;
+  color: #057911;
+}
+
+.releases .tracklist a:hover {
+  color: #bebeaf;
+}
+
+/* end releases */

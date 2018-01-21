@@ -1,0 +1,73 @@
+/* page media */
+.media a {
+  color: #bebeaf;
+}
+
+.media a:hover {
+  color: #5C5F66;
+}
+
+.media i {
+  padding: 0.67em;
+}
+
+h3 {
+  font: roughtypewriterregular;
+}
+
+h3 {
+  color: #bebeaf;
+  padding: 0.5em 0.5em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+p {
+  color: #bebeaf;
+  padding: 0.5em 0.5em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.officialYoutube {
+  text-align: center;
+}
+
+.wallpapers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.wallpapers a {
+  width: 50%;
+  padding: 1em;
+}
+
+.wallpapers img {
+  width: 100%;
+}
+
+.videoOfficial .youtubeVideo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.videoOfficial iframe {
+  padding: 1em;
+  width: 50%;
+  min-height: 25em;
+}
+
+/* end page media */
