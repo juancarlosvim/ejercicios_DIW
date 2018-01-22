@@ -1,0 +1,22 @@
+@import "variables";
+/* page contact*/
+.contact{
+  color: $colour-section_p;
+  text-align: center;
+  h2{
+    font-family: $font_main;
+    text-transform: uppercase;
+  }
+  a{
+    text-decoration: none;
+    color: $colour-section_p;
+    i{
+      margin: 0.67em 0;
+      display: block;
+    }
+  }
+  a:hover{
+    color: $colour_a-hover;
+  }
+}
+/* end contact */

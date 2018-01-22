@@ -140,32 +140,6 @@ section .moreNews a:hover {
   color: #f3f3f3;
 }
 
-/* page contact*/
-.contact {
-  color: #bebeaf;
-  text-align: center;
-}
-
-.contact h2 {
-  font-family: roughtypewriterregular;
-  text-transform: uppercase;
-}
-
-.contact a {
-  text-decoration: none;
-  color: #bebeaf;
-}
-
-.contact a i {
-  margin: 0.67em 0;
-  display: block;
-}
-
-.contact a:hover {
-  color: #5C5F66;
-}
-
-/* end contact */
 aside {
   background-image: url("../img/aside.jpg");
   background-repeat: no-repeat;

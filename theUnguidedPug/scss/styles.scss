@@ -117,31 +117,6 @@ section{
 
 }
 
-
-
-
-
-/* page contact*/
-.contact{
-  color: $colour-section_p;
-  text-align: center;
-  h2{
-    font-family: $font_main;
-    text-transform: uppercase;
-  }
-  a{
-    text-decoration: none;
-    color: $colour-section_p;
-    i{
-      margin: 0.67em 0;
-      display: block;
-    }
-  }
-  a:hover{
-    color: $colour_a-hover;
-  }
-}
-/* end contact */
 aside{
   background-image: url($fondo_imagen-aside);
   background-repeat: no-repeat;
@@ -182,6 +157,7 @@ footer{
   a{
     text-decoration: none;
     color: $colour_nav;
+
 
   }
   a:hover{
