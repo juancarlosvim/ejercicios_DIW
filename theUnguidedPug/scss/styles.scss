@@ -66,6 +66,7 @@ section{
 
   }
   article{
+    text-align: justify;
     margin-top: 1em;
     h3{
       color: $colour-section_p;
@@ -201,6 +202,7 @@ footer{
         width: 80%;
       }
       article{
+        text-align: start;
         .youtubeVideo {
           iframe {
             width: 80%;

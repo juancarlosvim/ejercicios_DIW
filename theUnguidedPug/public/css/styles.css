@@ -84,6 +84,7 @@ section h1 {
 }
 
 section article {
+  text-align: justify;
   margin-top: 1em;
 }
 
@@ -238,6 +239,9 @@ footer i {
   }
   main section img {
     width: 80%;
+  }
+  main section article {
+    text-align: start;
   }
   main section article .youtubeVideo iframe {
     width: 80%;
