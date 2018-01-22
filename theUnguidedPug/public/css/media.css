@@ -11,18 +11,18 @@
   padding: 0.67em;
 }
 
-h3 {
+.media h3 {
   font: roughtypewriterregular;
 }
 
-h3 {
+.media h3 {
   color: #bebeaf;
   padding: 0.5em 0.5em;
   text-transform: uppercase;
   text-align: center;
 }
 
-p {
+.media p {
   color: #bebeaf;
   padding: 0.5em 0.5em;
   text-transform: uppercase;

@@ -191,3 +191,66 @@ footer{
     padding: 0.3em;
   }
 }
+
+//resolution mobile
+
+@media screen and (max-width: $resolution_S7) {
+  header{
+    background-image: url("../img/movil.jpg");
+
+
+    nav{
+      display: flex;
+      flex-direction: column;
+      li{
+        display: block;
+      }
+      .social{
+        li{
+          display: inline;
+        }
+      }
+    }
+
+  }
+
+  main{
+    display: flex;
+    flex-direction: column;
+    section{
+      display: flex;
+      flex-direction: column;
+
+      img{
+        width: 80%;
+      }
+      article{
+        .youtubeVideo {
+          iframe {
+            width: 80%;
+            height: 20em;
+          }
+        }
+      }
+      .youtubeVideo {
+        iframe {
+          width: 100%;
+          height: 20em;
+        }
+      }
+    }
+  }
+
+
+  footer{
+    display: flex;
+    flex-direction: column;
+
+    p{
+      text-align: center;
+      padding: 1em;
+
+    }
+  }
+
+}
