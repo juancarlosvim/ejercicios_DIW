@@ -35,7 +35,6 @@
 }
 
 .theUnguided article .followSocial a {
-  text-decoration: none;
   color: #bebeaf;
   padding: 1em;
 }
@@ -47,7 +46,6 @@
 
 .theUnguided article .links a {
   color: #bebeaf;
-  text-decoration: none;
   font-style: oblique;
 }
 

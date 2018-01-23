@@ -448,3 +448,9 @@ template {
 [hidden] {
   display: none;
 }
+/*
+ * Remove text-decoration
+ */
+a{
+  text-decoration: none;
+}

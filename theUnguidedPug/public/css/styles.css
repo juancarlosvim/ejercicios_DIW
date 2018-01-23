@@ -30,30 +30,29 @@ header {
   min-height: 50em;
 }
 
-header nav {
+nav {
   margin-top: 6em;
   background-color: #333333;
   padding: 1em;
 }
 
-header nav li {
+nav li {
   display: inline-block;
 }
 
-header nav li a {
+nav li a {
   padding: 0 0.2em;
-  text-decoration: none;
   color: #f3f3f3;
   font-family: roughtypewriterregular;
   text-transform: uppercase;
   font-size: 1.5em;
 }
 
-header nav li a:hover {
+nav li a:hover {
   color: #5C5F66;
 }
 
-header nav .social {
+nav .social {
   display: inline;
 }
 
@@ -83,61 +82,60 @@ section h1 {
   padding: 0.5em;
 }
 
-section article {
+article {
   text-align: justify;
   margin-top: 1em;
 }
 
-section article h3 {
+article h3 {
   color: #bebeaf;
   text-transform: uppercase;
   padding: 0.5em 0.5em;
 }
 
-section article h4 {
+article h4 {
   color: #bebeaf;
   padding: 0 0.5em;
 }
 
-section article .youtubeVideo {
+article p {
+  padding: 0 0.5em;
+  color: #bebeaf;
+}
+
+.youtubeVideo {
   text-align: center;
 }
 
-section article .youtubeVideo iframe {
+.youtubeVideo iframe {
   width: 50%;
   height: 30em;
   margin-left: auto;
   margin-right: auto;
 }
 
-section article .imagePost {
+.imagePost {
   margin-top: 0.67em;
   text-align: center;
 }
 
-section article .imagePost img {
+.imagePost img {
   width: 70%;
 }
 
-section article p {
-  padding: 0 0.5em;
-  color: #bebeaf;
-}
-
-section .moreNews {
+.moreNews {
   text-align: center;
   margin-top: 0.5em;
 }
 
-section .moreNews a {
+.moreNews a {
   font-family: roughtypewriterregular;
-  text-decoration: none;
   text-transform: uppercase;
   font-size: 2em;
   color: #057911;
 }
 
-section .moreNews a:hover {
+.moreNews a:hover {
   color: #f3f3f3;
 }
 
@@ -188,7 +186,6 @@ footer p {
 }
 
 footer a {
-  text-decoration: none;
   color: #f3f3f3;
 }
 
@@ -198,6 +195,10 @@ footer a:hover {
 
 footer i {
   padding: 0.3em;
+}
+
+.printPage {
+  visibility: hidden;
 }
 
 @media screen and (max-width: 414px) {
@@ -243,7 +244,7 @@ footer i {
   main section article {
     text-align: start;
   }
-  main section article .youtubeVideo iframe {
+  main section .youtubeVideo iframe {
     width: 80%;
     height: 20em;
   }
@@ -263,5 +264,25 @@ footer i {
   footer p {
     text-align: center;
     padding: 1em;
+  }
+}
+
+/* print page*/
+@media print {
+  header {
+    display: none;
+  }
+  section {
+    display: none;
+  }
+  aside {
+    display: none;
+  }
+  footer {
+    visibility: hidden;
+  }
+  .printPage {
+    text-align: center;
+    visibility: visible;
   }
 }

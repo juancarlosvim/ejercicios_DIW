@@ -11,7 +11,7 @@ block content
         p Click the images to download a zip package featuring several desktop resolutions.
         div.wallpapers
             each value, index in wallpapers
-                a(href=routeWallpapers+linkWallpapers[index], download)
+                a(href=routeWallpapers+linkWallpapers[index])
                     +imagePost(value)
         h3 official videos
         p Check all official videos and more at THE UNGUIDED youtube channel
