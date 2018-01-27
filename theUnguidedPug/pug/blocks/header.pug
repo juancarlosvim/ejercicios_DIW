@@ -1,8 +1,0 @@
-nav
-    ul
-        each value, index in names
-            li: a(href=links[index]) #{value}
-        div.social
-            each valueIcon, indexIcon in icons
-                li: a(target="_blank", href=linksIcons[indexIcon])
-                    i(class=valueIcon, aria-hidden="true")
